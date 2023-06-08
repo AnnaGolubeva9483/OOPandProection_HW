@@ -11,14 +11,13 @@ public class Radio {
     private int quantityStation = 10;
 
     public Radio() {
-        System.out.println(quantityStation);
-        System.out.println("test1");
+
     }
 
     public Radio(int quantityStation) {
         this.quantityStation = quantityStation;
         maxStation = quantityStation - 1;
-        System.out.println("test2");
+
     }
 
     public int getMaxStation() {
